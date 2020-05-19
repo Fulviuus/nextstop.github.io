@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container-fluid px-0">
+  {% for image in page.images %}
+  <div class="row margin20">
+    <div class="col-md-2">
+      {% if forloop.index==1 %}
+      <div><strong>{{page.name}}</strong></div>
+      <div>{{page.description}}</div>
+
+      {% endif %}
+    </div>
+
+    <div class="col-md-10">
+      <img
+        class="img-fluid w-100"
+        src="{{image.path}}"
+        alt="{{image.description}}"
+      />
+    </div>
+  </div>
+  {% endfor %}
+</div>

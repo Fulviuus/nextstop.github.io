@@ -2,6 +2,7 @@ body {
   font-family: "Inconsolata", monospace;
   font-size: 12px;
   line-height: 15px;
+  background-color: #fbfbfb;
 }
 .marginbig {
   margin-bottom: 100px;
@@ -10,6 +11,11 @@ body {
 .margin30 {
   margin-bottom: 30px;
 }
+
+.margin20 {
+  margin-bottom: 20px;
+}
+
 .grid {
   margin-top: 100px;
 }
@@ -27,8 +33,9 @@ body {
   width: 100%;
 }
 .navbar {
-  background-color: #ffffff;
+  background-color: #fbfbfb;
   padding-left: 0px;
+  padding-top: 30px;
 }
 .navbar .navbar-brand {
   color: #000000;

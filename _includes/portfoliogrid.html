@@ -1,23 +1,10 @@
 <div class="grid">
+  {% for project in site.projects %}
+
   <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
+    <a href="{{ project.url }}">
+      <img class="portfolioimage" src="{{project.front-image}}" />
+    </a>
   </div>
-  <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
-  </div>
-  <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
-  </div>
-  <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
-  </div>
-  <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
-  </div>
-  <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
-  </div>
-  <div class="grid-item">
-    <img class="portfolioimage" src="assets/img/cop_aisico-bia.jpg" />
-  </div>
+  {% endfor %}
 </div>
