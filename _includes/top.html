@@ -1,0 +1,12 @@
+<div class="row">
+  {% for top-item in site.top-items %}
+  <div class="col">
+    {% if top-item.title=="spacer" %}
+    <p></p>
+    {%else%}
+    <p class="margin30">{{ top-item.title }}</p>
+    <p>{{ top-item.content | markdownify }}</p>
+    {%endif%}
+  </div>
+  {% endfor %}
+</div>
