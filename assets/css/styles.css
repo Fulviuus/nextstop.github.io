@@ -36,6 +36,17 @@ body {
   text-decoration: none;
 }
 
+a {
+  color: #e30613;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #e30613;
+  text-decoration: none;
+}
+
 .grid {
   margin-top: 100px;
 }
