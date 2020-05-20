@@ -3,5 +3,6 @@ $(document).ready(function () {
     // options
     itemSelector: ".grid-item",
     gutter: 0,
+    rowHeight: 60,
   });
 });

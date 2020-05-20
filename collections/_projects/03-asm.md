@@ -1,5 +1,6 @@
 ---
 name: Associazione Strutture Musicali
+order: 3
 description: Logo design.
 front-image: /assets/img/asm/cop_asm.jpg
 permalink: /asm/

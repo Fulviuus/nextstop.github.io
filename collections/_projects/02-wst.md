@@ -1,5 +1,6 @@
 ---
 name: World Sport Tourism Show
+order: 2
 description: Logo design.
 front-image: /assets/img/wst/cop_wst.jpg
 permalink: /wst/

@@ -1,5 +1,6 @@
 ---
 name: Orchestra Filarmonica Vittorio Calamani
+order: 1
 description: Logo design, brand identity, website.
 front-image: /assets/img/ofc/cop_ofc.jpg
 permalink: /ofc/

@@ -16,14 +16,31 @@ body {
   margin-bottom: 20px;
 }
 
+.margin100top {
+  margin-top: 100px;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
+}
+
+.nolinkstyle {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nolinkstyle:hover,
+.nolinkstyle:focus {
+  color: #2a6496;
+  text-decoration: none;
+}
+
 .grid {
   margin-top: 100px;
 }
 .grid-item {
   width: 33.333%;
-  /* background-image: url("../img/cop_aisico-bia.jpg");
-  background-size: contain;
-  background-repeat: no-repeat; */
 }
 .grid-item--width2 {
   width: 50%;

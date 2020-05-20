@@ -11,6 +11,4 @@ images:
     description: Progetti e Servizi brochure.
   - path: /assets/img/pes/pes_03.jpg
     description: Progetti e Servizi brochure.
-  - path: /assets/img/pes/pes_04.jpg
-    description: Progetti e Servizi brochure.
 ---
