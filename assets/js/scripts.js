@@ -5,4 +5,7 @@ $(document).ready(function () {
     gutter: 0,
     rowHeight: 60,
   });
+  $grid.imagesLoaded().progress(function () {
+    $grid.packery();
+  });
 });
