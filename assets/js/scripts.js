@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".grid").packery({
+  var $grid = $(".grid").packery({
     // options
     itemSelector: ".grid-item",
     gutter: 0,
