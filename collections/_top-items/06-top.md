@@ -7,4 +7,4 @@ valerio.fanelli[a]gmail.com
 nextstopdesign.it  
 [online shop](https://www.redbubble.com/people/nextstop/shop){: .nolinkstyle2}
 
-© 2020 NextStop Design
+©2020 NextStop Design
