@@ -1,5 +1,5 @@
 ---
-title: Archive
+title: Selection
 ---
 
-This is an archive of projects completed between 2002–2020.
+This is a selection of projects completed between 2002–2020.
